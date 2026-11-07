@@ -13,6 +13,7 @@ Open these pages in separate tabs:
 - http://localhost:8080/attacker — gradual traffic-load simulator
 - http://localhost:8080/user — normal streaming-user view
 
+
 ## Demo flow
 
 1. Open all three pages.
