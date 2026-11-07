@@ -157,7 +157,7 @@ func main() {
 	mux.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		if r.URL.Path == "/" {
-			http.Redirect(w, r, "/monitor", http.StatusFound)
+			http.Redirect(w, r, "/user", http.StatusFound)
 			return
 		}
 		switch r.URL.Path {
