@@ -16,6 +16,7 @@ Open these pages in separate tabs:
 
 ## Demo flow
 
+
 1. Open all three pages.
 2. Start the simulation in the attacker page. Traffic ramps up gradually (50 simulated requests/second per second). The dashboard shows the service moving through healthy, degraded, and offline states.
 3. In the monitoring page, enable **Per-source Token Bucket Rate Limiting**. The simulated attacking source is capped at 20 requests/second while legitimate user traffic is preserved. Watch effective incoming traffic and availability recover in real time.
