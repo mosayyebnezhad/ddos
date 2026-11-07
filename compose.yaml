@@ -1,0 +1,7 @@
+services:
+  ddos-lab:
+    build: .
+    container_name: ddos-lab
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
